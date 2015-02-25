@@ -1,0 +1,28 @@
+use diff to find differences between different version of files
+------------------------------------------------------------------------------------------------------------------
+in the command line type:
+diff -u oldfilename newfile name
+and then hit return.
+The answer will show up. (-): indicates the line is in the old file but not in the new file (+): indicates the line is in the new file
+This is useful to keep track different version of files
+
+Using Terminal To do Everthing on Mac!!! it's awesome!!!!
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+------------------------------------------------------------------------------------------------------------------
+because many codes a connected with each other, changing one will lead to change in another one. For instance, change in css file, may lead to change in html file. Thus the logical way to submit git is to commit changes in all related files together.
+
+How can you use the commands git log and git diff to view the history of files?
+------------------------------------------------------------------------------------------------------------------
+git log: show all the submitted gits and their names, the first one is the latest commit. 
+git diff old_commmit_number new_commit_number show the difference between two versions (already changed into color using: git config --global color.ui auto)
+
+How might using version control make you more confident to make changes that could break something?
+------------------------------------------------------------------------------------------------------------------
+it helps me to keep track of all the versions that i have submitted
+
+Now that you have your workspace set up, what do you want to try using Git for?
+------------------------------------------------------------------------------------------------------------------
+make it more beautiful to use GIT.....or readable
+not sure..
+
